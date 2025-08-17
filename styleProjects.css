@@ -1,0 +1,88 @@
+body {
+    font-family: monospace, 'Courier New';
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1, p {
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.purpleUnderline {
+    border-bottom: 4px solid #8b5cf6;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+#textRainImg,
+#holeImg,
+#earthImg,
+#antImg,
+#shadeImg {
+    width: 300px;
+    height: auto;
+    margin-right: 24px;
+    display: block;
+    margin-left: 20px;
+    border: 3px solid transparent;
+    transition: border 0.2s;
+}
+
+#textRainImg:hover,
+#holeImg:hover,
+#earthImg:hover,
+#antImg:hover,
+#shadeImg:hover {
+    border: 3px solid #6366f1;
+}
+
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    background: #f7f7fa;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(99,102,241,0.08);
+    padding: 24px 32px;
+    transition: box-shadow 0.2s, background 0.2s, transform 0.2s;
+}
+
+.project:hover {
+    background: #ede9fe;
+    box-shadow: 0 6px 24px rgba(99,102,241,0.18);
+    transform: translateY(-4px) scale(1.01);
+}
+
+.project a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project p {
+    margin: 0 0 0 24px;
+    text-align: left;
+    width: auto;
+}
+
+#home {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    background: #f0f0f0;
+    padding: 8px 16px;
+    border-radius: 6px;   
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+#home:hover {
+    background: #6366f1;
+    color: #fff;
+    transform: translateY(-2px) scale(1.05);
+}
