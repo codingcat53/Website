@@ -20,7 +20,8 @@ h1, p {
 #holeImg,
 #earthImg,
 #antImg,
-#shadeImg {
+#shadeImg,
+#paperImg {
     width: 300px;
     height: auto;
     margin-right: 24px;
@@ -34,7 +35,8 @@ h1, p {
 #holeImg:hover,
 #earthImg:hover,
 #antImg:hover,
-#shadeImg:hover {
+#shadeImg:hover,
+#paperImg:hover {
     border: 3px solid #6366f1;
 }
 
